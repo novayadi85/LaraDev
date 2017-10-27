@@ -6,7 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{$title}</title>
 		<link href="{{asset('css/system.css')}}" rel="stylesheet">
-		<link rel="stylesheet" href="{{asset('css/animate.css')}}" type="text/css" />
+		<link href="{{asset('css/dewatasoft.css')}}" rel="stylesheet"  type="text/css" />
+		<link href="{{asset('css/style.css')}}" rel="stylesheet"  type="text/css" />
+		<link href="{{asset('css/animate.css')}}" rel="stylesheet"  type="text/css" />
 	</head>
     <body class=" skin-blue">
 		<!-- header logo: style can be found in header.less -->
@@ -82,19 +84,23 @@
 			</aside>		
 		</div>
 				
-		<script src="{{asset('js/vendor/jquery-2.1.1.js')}}"></script>
-		<script src="{{asset('js/vendor/modernizr-custom.js')}}"></script>
-		<script src="{{asset('js/vendor/alertify.js')}}"></script>
-		<script src="{{asset('js/vendor/bootstrap.min.js')}}"></script>
-		<script src="{{asset('js/vendor/jquery.form.js')}}"></script>
-		<script src="{{asset('js/vendor/jquery.highlight.js')}}"></script>
-		<script src="{{asset('js/vendor/plugins/dataTables/jquery.dataTables.js')}}"></script>
-		<script src="{{asset('js/vendor/plugins/dataTables/zjs.utils.js')}}"></script>
-		<script src="{{asset('js/vendor/plugins/dataTables/dataTables.bootstrap.js')}}"></script>
-		<script src="{{asset('js/vendor/plugins/dataTables/dataTables.responsive.js')}}"></script>
-		<script src="{{asset('js/vendor/plugins/dataTables/dataTables.tableTools.min.js')}}"></script>
-		<script src="{{asset('js/vendor/plugins/dataTables/dataTables.search.js')}}"></script>
-		<script src="{{asset('js/vendor/plugins/dataTables/jquery.dataTables.delay.min.js')}}"></script>
-		<script src="{{asset('js/vendor/plugins/dataTables/dataTables.searchHighlight.min.js')}}"></script>
+		<script src="{{asset('js/system.js')}}"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/backend.v.0.3/js/modernizr-custom.js"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/backend.v.0.3/js/alertify.js"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/backend.v.0.3/js/jquery.form.js"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/backend.v.0.3/js/jquery.highlight.js"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/backend.v.0.3/js/plugins/dataTables/jquery.dataTables.js"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/backend.v.0.3/js/plugins/dataTables/zjs.utils.js"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/backend.v.0.3/js/plugins/dataTables/dataTables.bootstrap.js"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/backend.v.0.3/js/plugins/dataTables/dataTables.responsive.js"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/backend.v.0.3/js/plugins/dataTables/dataTables.tableTools.min.js"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/backend.v.0.3/js/plugins/dataTables/dataTables.search.js"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/backend.v.0.3/js/plugins/dataTables/jquery.dataTables.delay.min.js"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/backend.v.0.3/js/plugins/dataTables/dataTables.searchHighlight.min.js"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/booking/plugin/daterangepicker/js/moment-with-locales.js"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/booking/plugin/daterangepicker/js/bootstrap-datepicker.min.js"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/backend/js/app.js"></script>
+		<script src="http://localhost.com/bookingsystem/assets/themes/backend/js/dewatasoft.js"></script>
+
 	</body>
 </html>
